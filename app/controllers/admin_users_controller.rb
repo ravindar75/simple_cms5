@@ -32,7 +32,7 @@ class AdminUsersController < ApplicationController
   	end
 
   def delete
-  	@admin_user = AdminUser.find(params[:id])
+  	@admin_user = AdminUser.find(params[:id]) ### test 
   end
   def destroy
   		@admin_user = AdminUser.find(params[:id])
